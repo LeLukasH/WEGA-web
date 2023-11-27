@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-gzr6Yq+jZNQl3hp7IhPiF4Q5PaXEP8i0NkyA3c+a1O6paVq8of9DWbWJXjIjPVfF" crossorigin="anonymous">
+  <title>LH VideoProduction</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="assets/logo.png" width="80" height="80" class="d-inline-block align-top" alt="Logo">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Domov <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="services.html">Služby</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Kontakt</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<hr style="height: 1px; margin: 0; background-color: #ff9401">
+
+<main>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="jumbotron" style="background-image: url('assets/banner1.png');">
+            <div>
+            <h1>Top kvalita</h1>
+            <p>Vitajte na stránke LH VideoProduction.</p>
+            </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="jumbotron" style="background-image: url('assets/banner2.png');">
+          <div>
+            <h1>Špičkové služby</h1>
+            <p>Vitajte na stránke LH VideoProduction.</p>
+        </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="jumbotron" style="background-image: url('assets/banner3.png');">
+          <div>
+            <h1>Rýchle doručenie</h1>
+            <p>Vitajte na stránke LH VideoProduction.</p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-container" style="background-color: #ffffff; color: #252525;">
+    <div class="row">
+    <div class="col-lg-6">
+      <img src="assets/team.webp" id="team-photo" alt="Team Photo">
+    </div>
+    <div class="col-lg-6" style="padding: 20px; display: flex; align-items: flex-end; flex-wrap: wrap;">
+      <h2 style="font-size: 12dvw;">Tím</h2>
+      <p>Náš tím tvorcov videí tvorí skupinu nadšencov so zápalom pre vizuálnu tvorbu a príbehové vyjadrenie. Každý z nás prispieva k jedinečnej atmosfére nášho kreatívneho priestoru. Spoločne tvoríme videá, ktoré vás vtiahnu do príbehu a potešia vaše zmysly. Sme tím s vášňou pre tvorbu, a každý projekt je pre nás nová výzva, ktorú so zápalom prijímame. Vítame vás do nášho kreatívneho sveta, kde sa videá stávajú živými umeleckými dielami.</p>
+    </div>
+  </div>
+</div>
+
+<div id="team-photos">
+<div class="container" >
+  <div class="row">
+    <div class="column col-lg-4">
+        <div class="bbox bbox1">
+            <div class="imgBx">
+                <img src="assets/team-member1.png" alt="Team Member 1">
+            </div>
+            <div class="content">
+                <h2>Lukas Heldak<br><span>Kameraman</span></h2>
+            </div>
+        </div>
+        <div class="image" id="image1">
+            <i class="fa-solid fa-camera" style="color: #ffffff;"></i>
+        </div>
+    </div>
+    <div class="column col-lg-4">
+        <div class="bbox bbox2">
+            <div class="imgBx">
+                <img src="assets/team-member2.png" alt="Team Member 2">
+            </div>
+            <div class="content">
+                <h2>Marek Pito<br><span>Strihač</span></h2>
+            </div>
+        </div>
+        <div class="image" id="image2">
+            <i class="fa-solid fa-scissors" style="color: #ffffff;"></i>
+        </div>
+    </div>
+    <div class="column col-lg-4">
+        <div class="bbox bbox3">
+            <div class="imgBx">
+                <img src="assets/team-member3.png" alt="Team Member 3">
+            </div>
+            <div class="content">
+                <h2>Filip Majesky<br><span>Zvukár</span></h2>
+            </div>
+        </div>
+        <div class="image" id="image3">
+            <i class="fa-solid fa-headphones" style="color: #ffffff;"></i>
+        </div>
+    </div>
+  </div>
+  <div class="image-container"></div>
+</div>
+</div>
+
+<div class="container-fluid row" style="background-color: #ffffff; color: #252525;">
+    <div id="button-container" class="col-md-4">
+        <button class="btn custom-button" onclick="redirectToPortfolio()">
+            Pozrieť portfolio
+            <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+        </button>
+    </div>
+    <div id="video-container" class="col-md-8">
+      <iframe width="100%" height="540" src="https://www.youtube.com/embed/MZHj0rQYH8Y?si=UILWNqL-NA4z4GdV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+
+</main>
+  
+  <footer class="text-center mt-3">
+    <p>&copy; 2023 LH VideoProduction. All rights reserved.</p>
+  </footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/730dd665d0.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
